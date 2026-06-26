@@ -18,7 +18,7 @@ export default function LoginPage() {
       </div>
 
       <div className="w-full flex justify-center">
-        <SignIn />
+        <SignIn path="/login" signUpUrl="/login" />
       </div>
     </div>
   );
